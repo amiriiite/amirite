@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("https://wallpaperaccess.com/full/631613.jpg");
+    height: 300vh;
+    background-size:cover;
+}
+logo {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    border-bottom: 1px solid white;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.logo-home{
+    text-decoration:none;
+    text-align:center;
+    position: absolute;
+    left: 40%;
+}
+.backflip{
+    width: 500px;
+    height: 300px;
+    border: 5px solid white;
+}
+section{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+h2{
+    padding: 10px;
+    color: white;
+    width: 500px;
+    position: absolute;
+    left: 33%;
+}

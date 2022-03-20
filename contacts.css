@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/334070/287f52bb057e180ef7ab972daca0ec46f466803b.jpg");
+}
+logo {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    border-bottom: 1px solid white;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.logo-home{
+    text-decoration:none;
+    text-align:center;
+    position: absolute;
+    left: 40%;
+}

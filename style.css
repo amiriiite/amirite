@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    height: 1000px;
+}
+body{
+    background-color:steelblue;
+}
+logo {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    border-bottom: 1px solid black;
+    left: 40%;
+}
+/* counter app icon */
+.logo-home{
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+.counter-container{
+    width: 100%;
+    height: 220px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.counter-icon {
+    width: 300px;
+    height: 220px;
+    border: 1px solid white;
+    border-radius: 20px 50px;
+    text-decoration: none;
+    transition:1s;
+}
+.counter-icon:hover{
+    transform:scale(1.1);
+    z-index: 1;
+ }
+ .counter-label{
+    font-size: 30px;
+    position:absolute;
+    bottom: 180px;
+    left: 60px;
+    color:brown;
+ }
+ /* Counter App */
+.counter-headings{
+;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:100% 800px;
+    position:absolute;
+    top: 25%;
+    left: 31%;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    color:orangered;
+    font-size: 50px;
+    width: 650px;
+    height: 500px;
+    color: white;
+}
+.bg-color{
+    background-color: blue;
+}
+#increment-btn{
+    font-size: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    color: black;
+    background-color: red;
+}
+#minus-increment-btn{
+    font-size: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    color: black;
+    background-color: red;
+}
+#save-btn{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+}
+a.logo{
+    position: inherit;
+}
+label.counter-icon{
+    position: relative;
+    top
+}
+#save-el{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+/* BlackJack Icon */
+.blackjack-icon{
+    width: 300px;
+    height: 220px;
+    border: 1px solid white;
+    border-radius: 20px 50px;
+    text-decoration: none;
+    transition:1s;
+    margin-left: 25px;
+}
+.blackjack-icon:hover{
+    transform:scale(1.1);
+    z-index: 1;
+}
+
+/* BlackJack Game */
+.bj-font-family{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.bj-headings{
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    background-color: green;
+}
+.bj-font{
+    color: goldenrod;
+    font-size: 80px;
+}
+.p-font{
+    color: white;
+    padding: 10px;
+    font-size: 45px;
+}
+#message-el{
+    font-style: italic;
+}
+#start-button{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px; 
+    width: 250px;
+    height: 50px;
+    background-color: goldenrod;
+    color: green;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    left: 124px;
+}
+#new-cards-button{
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    background-color: goldenrod;
+    color: green;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    top: 60px;
+    right: 130px;
+}

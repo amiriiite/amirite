@@ -1,0 +1,75 @@
+*{
+    margin: 5;
+    padding: 0;
+    text-decoration: none;
+}
+.nav-items{
+    height: 75px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp5275784.jpg");
+    background-size:cover;
+}
+a{
+    color: white;
+}
+logo{
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    font-size: 50px;
+    left: 20%;
+    transition-duration: 1s;
+}
+logo:hover{
+    transform:rotate(360deg);
+}
+#home{
+    position: absolute;
+    left: 50%;
+    border-bottom: 2px solid black;
+    transition-duration: 500ms;
+}
+#home:hover{
+    background-color:black;
+    transform:scale(1.1);
+}
+#about{
+    position: absolute;
+    left: 60%;
+    border-bottom: 2px solid black;
+    transition-duration: 500ms;
+}
+#about:hover{
+    background-color:black;
+    transform:scale(1.1);
+}
+#contacts{
+    position: absolute;
+    left: 70%;
+    border-bottom: 2px solid black;
+    transition-duration: 500ms;
+}
+#contacts:hover{
+    background-color:black;
+    transform:scale(1.1);
+}
+section{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 5rem;
+    text-align: center;
+}
+#portfolio{
+    border: 2px solid white;
+    border-radius: 3px;
+    color: black;
+    background-color:white;
+    padding: .5rem;
+    position: relative;
+    top: 1.5rem;
+}
